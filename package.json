@@ -1,0 +1,20 @@
+{
+  "name": "8-Ball-Neon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "lodash": "^4.17.15",
+    "ts-loader": "^5.3.3",
+    "typescript": "^5.5.4",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
