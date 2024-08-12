@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
     "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+    "target": "es2017",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true
+  }
 }
