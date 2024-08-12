@@ -1,9 +1,11 @@
 {
-  "name": "8-Ball-Neon",
+  "name": "Neon-8-Ball",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "http-server dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
