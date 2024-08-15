@@ -10,6 +10,11 @@ Welcome to the Classic 8-Ball Pool Game! This project is a digital 2D version of
 - [Configuration](#configuration)
 - [License](#license)
 
+## Live Demo
+
+Check out the live demo of the Classic 8-Ball Pool Game [here]([https://your-username.github.io/your-repo-name/](https://jordanbandur.github.io/8-Ball-Classic/)).
+
+
 ## Installation
 
 To get started with the Classic 8-Ball Pool Game, follow these steps:
