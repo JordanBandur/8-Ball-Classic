@@ -125,7 +125,6 @@ export class Menu {
    */
   public draw(): void {
     if (this._active) {
-      console.log("Menu Background Key:", sprites.paths.menuBackground);
       const menuBackgroundSprite = Assets.getSprite(sprites.paths.menuBackground);
       if (!menuBackgroundSprite) {
         throw new Error("Menu background sprite not found!");

@@ -55,10 +55,6 @@ export class MenuButton {
     private _spriteKey: string,
     private _spriteOnHoverKey: string,
   ) {
-    console.log("Button Sprite Key (key):", this._spriteKey);
-    console.log("Button Sprite Path (value):", sprites.paths[this._spriteKey]);
-    console.log("Button Hover Sprite Key (key):", this._spriteOnHoverKey);
-    console.log("Button Hover Sprite Path (value):", sprites.paths[this._spriteOnHoverKey]);
 
     if (!sprites.paths[this._spriteKey]) {
       throw new Error(`Sprite not found for key: ${this._spriteKey}`);
